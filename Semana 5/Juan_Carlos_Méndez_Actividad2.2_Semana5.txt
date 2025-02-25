@@ -1,0 +1,39 @@
+using System;
+
+class Programa
+{
+    static void Main()
+    {
+        // 1. Declarar a y b como números enteros (int)
+        int a;
+        int b;
+
+        // 2. Ingresar un número a
+        Console.Write("Ingresa un número para a: ");
+        a = Convert.ToInt32(Console.ReadLine());
+
+        // 3. Ingresar un número b
+        Console.Write("Ingresa un número para b: ");
+        b = Convert.ToInt32(Console.ReadLine());
+
+        // 4. Si a > b
+        if (a > b)
+        {
+            // i. Mostrar "verdadero"
+            Console.WriteLine("Verdadero");
+        }
+        else
+        {
+            // 5. Sino
+            // i. Mostrar "falso"
+            Console.WriteLine("Falso");
+        }
+
+        // 6. Si a == b
+        if (a == b)
+        {
+            // i. Mostrar "igual"
+            Console.WriteLine("Igual");
+        }
+    }
+}
